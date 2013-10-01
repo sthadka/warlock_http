@@ -1,0 +1,12 @@
+{application, warlock_http,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { warlock_http_app, []}},
+  {env, []}
+ ]}.
